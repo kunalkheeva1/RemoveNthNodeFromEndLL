@@ -1,4 +1,5 @@
 public class RemoveNthNodeFromEndLL {
+//Node class
     static class Node{
         int data;
         Node next;
