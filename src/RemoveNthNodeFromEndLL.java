@@ -24,9 +24,9 @@ public class RemoveNthNodeFromEndLL {
         if(count ==0){
             return head.next;
         }
-        //else we decrement the node
+
         else{
-            count --;
+            count --;  //this decrement is because I need a previous node to make the connection of it with its next to next to delete the middle one
             //and run a loop to reach the exact point where we want disconnection
             while(count >0){
                 count --;
