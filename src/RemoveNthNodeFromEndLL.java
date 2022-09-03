@@ -11,7 +11,7 @@ public class RemoveNthNodeFromEndLL {
     public static Node removeNthNodeFromEndLL(Node head, int n){
         //take two nodes and initialize the size
         Node current = head;
-        Node previous = head;
+        Node previous = head;  //I can reuse current by changing its reference again in the code, after getting the size.
         int size = 0;
         //until current becomes 0
         while(current != null){
